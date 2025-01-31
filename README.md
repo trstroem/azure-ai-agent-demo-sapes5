@@ -3,7 +3,7 @@
 This repository showcases an **Azure AI Agent Service** that automates product insights and sentiment analysis for SAP products, such as **HT-1000**. The solution leverages **Azure AI Foundry SDK**, **Azure OpenAI**, and **Azure Functions** to streamline workflows for customer service managers.
 
 ## 🏗️ **How the AI Agent Works**
-The demo enables users to retrieve real-time **product details**, analyze **customer reviews**, and generate **automated reports** using AI-driven workflows.
+The demo enables users to retrieve real-time **product details**, analyze **customer reviews**, and generate **automated reports** using Azure AI AGent service workflows.
 
 ![How Azure AI Agent Works](assets/azureaiagent.png)
 
