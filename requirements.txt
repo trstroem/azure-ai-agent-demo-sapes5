@@ -1,0 +1,6 @@
+matplotlib
+python-dotenv
+textblob
+azure-functions
+azure-ai-projects
+azure-identity

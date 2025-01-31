@@ -1,0 +1,22 @@
+# Ignore Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Node.js dependencies
+node_modules/
+package-lock.json
+
+# Ignore build files
+dist/
+build/
+
+# Ignore logs and cache
+logs/
+*.log
+
+# Ignore frontend components that are not needed
+frontend/src/components/

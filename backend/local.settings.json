@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "PROJECT_CONNECTION_STRING":"eastus.api.azureml.ms;487a90a9-c58f-4edd-ae52-4e1a778f2781;AzureAIAgentDemo;project-demo-cnef",
+    "WEBSITE_CORS_ALLOWED_ORIGINS": "http://localhost:3000"
+  }
+}
