@@ -109,7 +109,7 @@ This diagram shows the **Orchestrator Agent workflow**:
 
 1. The **User** enters a **Product ID**.  
 2. The **Orchestrator Agent** coordinates:
-   - **SAP OData API** to fetch product data and reviews.
+   - **SAP OData API** to fetch product data and reviews (for this demo, XML converted OdataAP has converted into JSON).
    - **Azure OpenAI** for semantic analysis and summarization.
    - **Azure Functions** to execute the process.  
 3. The final **analysis results and visualizations** are shown in the UI.  
