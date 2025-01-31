@@ -19,5 +19,6 @@ logs/
 *.log
 
 # Ignore frontend components that are not needed
-frontend/src/components/
+.env
 backend/.env
+frontend/.env
