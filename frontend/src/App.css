@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.App-header {
+  background-color: #0062cc;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.App-header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.App-header p {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.App-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.App-left {
+  flex: 1;
+}
+
+.App-right {
+  flex: 1;
+}
+
+.Right-column-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ChatWindow,
+.SystemProgress,
+.ResultsDisplay {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  max-height: 300px;
+  overflow-y: auto;
+  background: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ChatWindow h3,
+.SystemProgress h3,
+.ResultsDisplay h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.App-content {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.App-content:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #0062cc;
+}
+
+button {
+  background-color: #0062cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #004a99;
+  transform: scale(1.05);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+pre {
+  text-align: left;
+  background: #f7f7f7;
+  padding: 15px;
+  border-radius: 4px;
+  overflow: auto;
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+/* Results Display */
+.ResultsDisplay {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.ResultsDisplay h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.ResultsDisplay img {
+  margin-top: 15px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .App-container {
+    flex-direction: column;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    margin: 0 0 10px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .Right-column-container {
+    gap: 10px;
+  }
+}
