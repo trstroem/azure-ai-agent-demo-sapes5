@@ -6,6 +6,8 @@ This repository showcases an **Azure AI Agent Service** that automates product i
 
 The demo enables users to **retrieve real-time product details, analyze customer reviews, and generate automated reports** using Azure AI Agent service workflows.
 
+![Azure AI Agent Workflow](assets/azureaiagent.png)
+
 1. **User enters a Product ID** (e.g., `HT-1000`).
 2. **Orchestrator Agent** (powered by Azure AI Agent Service) processes the request.
 3. **Models (Azure OpenAI GPT-4o-mini)** perform semantic analysis and review summarization.
@@ -134,6 +136,8 @@ npm start
 
 ## 🎯 Usage Instructions
 
+![Azure AI Agent Usage](assets/azureaiagentusage.png)
+
 Once the services are running:
 
 1️⃣ Open **[http://localhost:3000](http://localhost:3000)** in your browser.
@@ -173,3 +177,4 @@ This diagram shows the **Orchestrator Agent workflow**:
 ## 📜 License
 
 This project is licensed under the **MIT License**. See the **LICENSE** file for details.
+
