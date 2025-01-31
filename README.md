@@ -160,20 +160,6 @@ Once the services are running:
 - **Generated charts** (bar & pie visualizations).
 
 ---
-
-## 📌 How Azure AI Agent Works
-
-This diagram shows the **Orchestrator Agent workflow**:
-
-1. The **User** enters a **Product ID**.
-2. The **Orchestrator Agent** coordinates:
-   - **SAP OData API** to fetch product data and reviews *(for this demo, XML-based OData API has been converted into JSON)*.
-   - **Azure OpenAI** for semantic analysis and summarization.
-   - **Azure Functions** to execute the process.
-3. The **final analysis results and visualizations** are shown in the UI.
-
----
-
 ## 📜 License
 
 This project is licensed under the **MIT License**. See the **LICENSE** file for details.
