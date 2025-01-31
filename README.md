@@ -39,8 +39,11 @@ cd azure-ai-agent-demo-sapes5
 ### **2️⃣ Install Dependencies**
 
 #### Backend (Python)
+If using Visual Studio Code (VSC), create and activate a Python virtual environment before installing dependencies:
 ```sh
 cd backend
+python -m venv .venv
+source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
